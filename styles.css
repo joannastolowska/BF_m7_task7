@@ -2,15 +2,14 @@
 
 * {
     padding: 0;
-    
 }
 
-body{
+body {
     background-color: rgb(167, 157, 157);
     font-family: 'Roboto'; sans-serif;
 }
 
-.container{
+.container {
     position: relative;
     width: 375px;
     height: 812px;
@@ -19,18 +18,17 @@ body{
     overflow: hidden;
 }
 
-.img{
+.img {
     position: absolute;
     width: 390px;
     height: 165px;
     left: -7px;
     top: -7px;
     background: linear-gradient(0deg, rgba(38, 38, 40, 0.4), rgba(38, 38, 40, 0.4)), url(img/background.png);
-    /* filter: blur(1px);   */
 
 }
 
-#avatar{
+#avatar {
     position: absolute;
     width: 105px;
     height: 105px;
@@ -38,12 +36,188 @@ body{
     top: -55px;
 }
 
-.wrapper{
-    position: absolute;
+.wrapper {
+    position: relative;
     width: 375px;
     height: 700px;
     left: 0px;
     top: 112px;
     background: #FFFFFF;
     border-radius: 12px 12px 0px 0px;
+}
+
+.card1 {
+    position: absolute;
+    width: 135px;
+    height: 28px;
+    left: 0px;
+    top: 18px;
+    bottom: 1px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    color: #262628;
+}
+
+.card2 {
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 0px;
+    top: 47px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    color: #9797BD;
+}
+
+.card3 {
+    position: absolute;
+    width: 135px;
+    height: 28px;
+    left: 240px;
+    top: 18px;
+    bottom: 1px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    color: #262628;
+}
+
+.card4 {
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 240px;
+    top: 47px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    color: #9797BD;
+}
+
+.card5 {
+    position: absolute;
+width: 108px;
+height: 23px;
+left: 134px;
+top: 78px;
+bottom: 3px;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+justify-content: center;
+color: #262628;
+}
+
+.card6 {
+    position: absolute;
+    width: 195px;
+    height: 16px;
+    left: 90px;
+    top: 104px;
+    bottom: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    color: #9797BD;
+}
+
+.card7 {
+    position: absolute;
+    width: 52px;
+    height: 15px;
+    left: 174px;
+    top:132px;
+    bottom: 17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    color: #9797BD;
+}
+
+.card8 {
+    position: absolute;
+    background: #43A2FA;
+    border-radius: 40px;
+    height: 40px;
+    width: 165px;
+    left: 18px;
+    top: 164px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card8-info {
+    position: static;
+    width: 42px;
+    height: 16px;
+    left: -8.29px;
+    top: -0.96px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.card9 {
+    position: absolute;
+    height: 40px;
+    width: 165px;
+    left: 193px;
+    top: 164px;
+    border-radius: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(151, 151, 189, 0.2);
+}
+
+.card9-info {
+    position: static;
+    width: 58px;
+    height: 16px;
+    left: -16.29px;
+    top: -0.96px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #262628;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
 }
