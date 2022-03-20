@@ -2,6 +2,7 @@
 
 * {
     padding: 0;
+    margin: 0;
 }
 
 body {
@@ -15,15 +16,12 @@ body {
     height: 812px;
     background: #FFFFFF;
     z-index: 1;
-    overflow: hidden;
 }
 
 .img {
     position: absolute;
-    width: 390px;
-    height: 165px;
-    left: -7px;
-    top: -7px;
+    width: 100%;
+    height: 100%;
     background: linear-gradient(0deg, rgba(38, 38, 40, 0.4), rgba(38, 38, 40, 0.4)), url(img/background.png);
 
 }
@@ -226,24 +224,20 @@ body {
     margin-bottom: 8px;
 }
 
- .gallery {
+.leading {
     display: flex;
     flex-wrap: wrap;
-    position: relative;
+    gap: 5px;
 }
-
-.rect {
+ .gallery {
     margin-left: 18px;
-    gap:5px;
-} 
-
+}
 .actions {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 28px;
+    align-items: center;
     margin-left: 21.5px;
     margin-right: 21.75px;
-    margin-top: 21px;
 }
 
 p{
